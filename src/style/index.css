@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    color: hsl(200,15%,8%);
+    background-color: hsl(0, 0%, 95%);
+}
+.dark body {
+    color: #fff;
+    background-color: hsl(207, 26%, 17%);
+}
+
+.dark :focus-visible {
+    outline: 2px ridge hsl(0, 0%, 95%);
+    outline-offset: 2px;
+    border-radius: 0.5em;
+    -webkit-border-radius: 0.5em;
+    -moz-border-radius: .5em;
+    -ms-border-radius: .5em;
+    -o-border-radius: .5em;
+}
+
+:focus-visible {
+    outline: 5px ridge hsl(207, 26%, 17%);
+    outline-offset: 2px;
+    border-radius: 0.5em;
+    -webkit-border-radius: 0.5em;
+    -moz-border-radius: .5em;
+    -ms-border-radius: .5em;
+    -o-border-radius: .5em;
+}
