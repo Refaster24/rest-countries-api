@@ -3,7 +3,7 @@ import { createSlice , createAsyncThunk } from "@reduxjs/toolkit";
 export const loadCountries = createAsyncThunk(
     'country/loadCountries',
     async () => {
-        const api = await fetch('../../public/data.json')
+        const api = await fetch('data.json')
         const apiData = await api.json()
         return apiData
     }
