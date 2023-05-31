@@ -47,6 +47,9 @@ Users should be able to:
 - View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
 
+### Screenshot
+
+![](https://refaster-portfolio.netlify.app/assets/images/projects/rest-countries-api-with-color-theme-switcher-master.jpg)
 
 ### Links
 
