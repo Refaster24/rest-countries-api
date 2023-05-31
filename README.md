@@ -40,13 +40,6 @@ The designs are in JPG static format. Using JPGs will mean that you'll need to u
 
 ## Overview
 
-### The challenge
-
-Users should be able to:
-
-- View the optimal layout for the site depending on their device's screen size
-- See hover states for all interactive elements on the page
-
 ### Screenshot
 
 ![](https://refaster-portfolio.netlify.app/assets/images/projects/rest-countries-api-with-color-theme-switcher-master.jpg)
@@ -63,8 +56,10 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - CSS Grid
+- Tailwindcss
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
+- Redux
 
 
 ## Author
